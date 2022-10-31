@@ -69,6 +69,37 @@ build array: C_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/array/array.c
   TARGET_PDB = array.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target circularLinkedList
+
+
+#############################################
+# Order-only phony target for circularLinkedList
+
+build cmake_object_order_depends_target_circularLinkedList: phony || CMakeFiles/circularLinkedList.dir
+
+build CMakeFiles/circularLinkedList.dir/circularLinkedList/circularLinkedList.c.o: C_COMPILER__circularLinkedList_Debug /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/circularLinkedList/circularLinkedList.c || cmake_object_order_depends_target_circularLinkedList
+  DEP_FILE = CMakeFiles/circularLinkedList.dir/circularLinkedList/circularLinkedList.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/circularLinkedList.dir
+  OBJECT_FILE_DIR = CMakeFiles/circularLinkedList.dir/circularLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target circularLinkedList
+
+
+#############################################
+# Link the executable circularLinkedList
+
+build circularLinkedList: C_EXECUTABLE_LINKER__circularLinkedList_Debug CMakeFiles/circularLinkedList.dir/circularLinkedList/circularLinkedList.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/circularLinkedList.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = circularLinkedList
+  TARGET_PDB = circularLinkedList.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCCompilerId
 
 
@@ -195,7 +226,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug
 
-build all: phony array CMakeCCompilerId doublyLinkedList linkedList
+build all: phony array circularLinkedList CMakeCCompilerId doublyLinkedList linkedList
 
 # =============================================================================
 # Built-in targets
