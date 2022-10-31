@@ -4,6 +4,8 @@
     -- src/CMakeCCompilerId.c will be compiled to bin/CMakeCCompilerId
     -- src/doublyLinkedList.c will be compiled to bin/doublyLinkedList
     -- src/linkedList.c will be compiled to bin/linkedList
+    -- src/stack.c will be compiled to bin/stack
+    -- src/stack_parsing_expressions.c will be compiled to bin/stack_parsing_expressions
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug

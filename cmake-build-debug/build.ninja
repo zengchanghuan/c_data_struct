@@ -192,6 +192,68 @@ build linkedList: C_EXECUTABLE_LINKER__linkedList_Debug CMakeFiles/linkedList.di
   TARGET_FILE = linkedList
   TARGET_PDB = linkedList.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stack
+
+
+#############################################
+# Order-only phony target for stack
+
+build cmake_object_order_depends_target_stack: phony || CMakeFiles/stack.dir
+
+build CMakeFiles/stack.dir/stack/stack.c.o: C_COMPILER__stack_Debug /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/stack/stack.c || cmake_object_order_depends_target_stack
+  DEP_FILE = CMakeFiles/stack.dir/stack/stack.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/stack.dir/stack
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack
+
+
+#############################################
+# Link the executable stack
+
+build stack: C_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/stack/stack.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stack
+  TARGET_PDB = stack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stack_parsing_expressions
+
+
+#############################################
+# Order-only phony target for stack_parsing_expressions
+
+build cmake_object_order_depends_target_stack_parsing_expressions: phony || CMakeFiles/stack_parsing_expressions.dir
+
+build CMakeFiles/stack_parsing_expressions.dir/stack_parsing_expressions/stack_parsing_expressions.c.o: C_COMPILER__stack_parsing_expressions_Debug /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/stack_parsing_expressions/stack_parsing_expressions.c || cmake_object_order_depends_target_stack_parsing_expressions
+  DEP_FILE = CMakeFiles/stack_parsing_expressions.dir/stack_parsing_expressions/stack_parsing_expressions.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/stack_parsing_expressions.dir
+  OBJECT_FILE_DIR = CMakeFiles/stack_parsing_expressions.dir/stack_parsing_expressions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack_parsing_expressions
+
+
+#############################################
+# Link the executable stack_parsing_expressions
+
+build stack_parsing_expressions: C_EXECUTABLE_LINKER__stack_parsing_expressions_Debug CMakeFiles/stack_parsing_expressions.dir/stack_parsing_expressions/stack_parsing_expressions.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/stack_parsing_expressions.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stack_parsing_expressions
+  TARGET_PDB = stack_parsing_expressions.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -226,7 +288,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug
 
-build all: phony array circularLinkedList CMakeCCompilerId doublyLinkedList linkedList
+build all: phony array circularLinkedList CMakeCCompilerId doublyLinkedList linkedList stack stack_parsing_expressions
 
 # =============================================================================
 # Built-in targets
