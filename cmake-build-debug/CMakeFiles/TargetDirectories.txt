@@ -3,6 +3,7 @@
 /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/CMakeCCompilerId.dir
 /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/doublyLinkedList.dir
 /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/linkedList.dir
+/Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/queue.dir
 /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/stack.dir
 /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/stack_parsing_expressions.dir
 /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug/CMakeFiles/edit_cache.dir

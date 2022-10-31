@@ -4,6 +4,7 @@
     -- src/CMakeCCompilerId.c will be compiled to bin/CMakeCCompilerId
     -- src/doublyLinkedList.c will be compiled to bin/doublyLinkedList
     -- src/linkedList.c will be compiled to bin/linkedList
+    -- src/queue.c will be compiled to bin/queue
     -- src/stack.c will be compiled to bin/stack
     -- src/stack_parsing_expressions.c will be compiled to bin/stack_parsing_expressions
 -- Configuring done

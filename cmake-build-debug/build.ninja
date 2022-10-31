@@ -193,6 +193,37 @@ build linkedList: C_EXECUTABLE_LINKER__linkedList_Debug CMakeFiles/linkedList.di
   TARGET_PDB = linkedList.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target queue
+
+
+#############################################
+# Order-only phony target for queue
+
+build cmake_object_order_depends_target_queue: phony || CMakeFiles/queue.dir
+
+build CMakeFiles/queue.dir/queue/queue.c.o: C_COMPILER__queue_Debug /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/queue/queue.c || cmake_object_order_depends_target_queue
+  DEP_FILE = CMakeFiles/queue.dir/queue/queue.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/queue.dir
+  OBJECT_FILE_DIR = CMakeFiles/queue.dir/queue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target queue
+
+
+#############################################
+# Link the executable queue
+
+build queue: C_EXECUTABLE_LINKER__queue_Debug CMakeFiles/queue.dir/queue/queue.c.o
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk
+  OBJECT_DIR = CMakeFiles/queue.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = queue
+  TARGET_PDB = queue.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target stack
 
 
@@ -288,7 +319,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug
 
-build all: phony array circularLinkedList CMakeCCompilerId doublyLinkedList linkedList stack stack_parsing_expressions
+build all: phony array circularLinkedList CMakeCCompilerId doublyLinkedList linkedList queue stack stack_parsing_expressions
 
 # =============================================================================
 # Built-in targets
