@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c_data_struct",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCCompilerId-Debug-7b6fdedca71ddbb229ac.json",
+					"name" : "CMakeCCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-array-Debug-c4a85541d7e80ca0ccfb.json",
+					"name" : "array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doublyLinkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doublyLinkedList-Debug-50313aac0fc5985a60ef.json",
+					"name" : "doublyLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linkedList::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linkedList-Debug-231e067a1f813839ba11.json",
+					"name" : "linkedList",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug",
+		"source" : "/Users/zengchanghuan/Desktop/work/my_github/c_data_struct"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

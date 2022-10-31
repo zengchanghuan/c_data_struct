@@ -1,0 +1,8 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/zengchanghuan/Desktop/work/my_github/c_data_struct -B /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug
+    -- src/array.c will be compiled to bin/array
+    -- src/CMakeCCompilerId.c will be compiled to bin/CMakeCCompilerId
+    -- src/doublyLinkedList.c will be compiled to bin/doublyLinkedList
+    -- src/linkedList.c will be compiled to bin/linkedList
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zengchanghuan/Desktop/work/my_github/c_data_struct/cmake-build-debug

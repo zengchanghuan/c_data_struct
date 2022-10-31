@@ -1,0 +1,7 @@
+# ninja log v5
+0	49	1667214596801301154	CMakeFiles/array.dir/array/array.c.o	beabc73cd47006b4
+61	114	1667214800944237107	linkedList	89067d3d1561f20a
+49	102	1667214596854320444	array	c2cc7d521b33753a
+1	61	1667214800892462486	CMakeFiles/linkedList.dir/linkedList/linkedList.c.o	f67cf7a52bfae5e8
+0	59	1667214862156149170	CMakeFiles/doublyLinkedList.dir/doublyLinkedList/doublyLinkedList.c.o	78a6a5f5e5a1ee37
+59	118	1667214862215248451	doublyLinkedList	4385043752609e3f
