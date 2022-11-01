@@ -22,29 +22,32 @@ void display(){
     printf("]\n");
 }
 
-void selectionSort(){
+void insertionSort(){
 
-    int indexMin,i,j;
+    int valueToInsert;
+    int holePosition;
+    int i;
     // loop through all numbers
-    for(i=0; i < MAX-1; i++){
-        // set current element as minimum
-        indexMin = i;
-        // check the element to be minimum
-        for(j=i+1;j<MAX;j++){
-            if(intArray[j] < intArray[indexMin]){
-                indexMin = j;
-            }
+    for(i=1; i < MAX; i++){
+        // select a value to be inserted.
+        valueToInsert = intArray[i];
+        // select the hole position where number is to be inserted
+        holePosition = i;
+        // check if previous no. is larger than value to be inserted
+        while (holePosition > 0 && intArray[i-1] > valueToInsert){
+            intArray[holePosition] = intArray[holePosition-1];
+            holePosition--;
+            printf(" item moved : %d\n" , intArray[holePosition]);
         }
 
-        if(indexMin != i){
-            printf("     Items swapped: [ %d, %d ]\n" ,intArray[i],intArray[indexMin]);
-            // swap the numbers
-            int temp=intArray[indexMin];
-            intArray[indexMin] = intArray[i];
-            intArray[i] = temp;
+        if(holePosition!= i){
+            printf(" item inserted : %d, at position : %d\n"
+                    , valueToInsert,holePosition);
+            // insert the number at hole position
+            intArray[holePosition] = valueToInsert;
         }
 
-        printf("Iteration %d#:",(i+1));
+        printf("Iteration %d#:",i);
         display();
     }
 }
@@ -53,7 +56,7 @@ int main(){
     printf("Input Array: ");
     display();
     printline(50);
-    selectionSort();
+    insertionSort();
     printf("Output Array: ");
     display();
     printline(50);
